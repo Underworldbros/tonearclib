@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use ToneArcLib in your work, please cite it as below."
+authors:
+  - family-names: Boothe
+    given-names: James
+    affiliation: Independent Researcher
+    email: underworldbros@gmail.com
+    github: Underworldbros
+title: "ToneArcLib: A Semantic Music Engine for Cross-Domain Emotional Interpretation"
+version: 0.1.0
+date-released: 2025-04-05
+repository-code: https://github.com/Underworldbros/tonearclib
+license: Custom Non-Commercial
+type: software
+keywords:
+  - music analysis
+  - audio emotion recognition
+  - motif detection
+  - AI-compatible scoring
+  - narrative sound engine
