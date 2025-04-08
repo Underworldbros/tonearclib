@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="tonearclib",
     version="0.1.0",
+    license="MIT",
     author="James Boothe",
     author_email="underworldbros@gmail.com",
     description="A semantic music analysis engine for tonal, rhythmic, and emotional profiling",
