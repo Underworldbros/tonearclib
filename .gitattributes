@@ -1,0 +1,17 @@
+# Normalize all text files to LF in repo, convert to native on checkout
+* text=auto
+
+# Treat binary files properly (no diffing)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.wav binary
+*.mp3 binary
+
+# Ignore diffs for compiled/cache/lock files
+*.pyc -diff
+*.lock -diff
+
+# Optional: Handle notebooks cleanly if you add any later
+*.ipynb diff=jupyternotebook
